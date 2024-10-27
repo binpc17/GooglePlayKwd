@@ -1,0 +1,99 @@
+<?php
+require_once ("./connJS.php");
+	$level=$_GET['level'];
+ $lang =explode( ',', $_SERVER['HTTP_ACCEPT_LANGUAGE'] )[0];
+if($level>0){
+    
+}else{
+   $uDev=is_numeric(strpos(strtolower($_SERVER['HTTP_USER_AGENT']), "mobile"));   
+ if($uDev>0){
+	 $mob="Mob";
+ }else{
+	 $mob="Web";
+ }
+ 
+  if($lang!==''){
+	$ps=$pdoJS->prepare("INSERT INTO webUsers (contryCD,countryN,twn,lng,app,track,track2,dateCreated) VALUES (1,'NCraigs','JS',' $lang','$mob',8,'JS',NOW())");
+    $ps->execute(array());
+  }    
+}
+	?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <base href="/">
+  <title>Craigslist Businesse: Guide Line Policies</title>
+  <meta name="description" content="Craigslist Businesse sites Guide Line "/>
+  <meta name="keywords" content="Craigslist sites"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta property="og:title" content="Craigslist sites: Business, Jobs, Deals, Sell & Rent nationwide and worldwide">
+  <meta property="og:description" content="✓ Unlimited craigslist post ad for your business, services & Hot deals offers. Search craigslist sites nationwide and worldwide in one click. Get it now">
+  <meta property="og:url" content="https://egozola.com/home">
+  <meta property="og:image" content="https://egozola.com/APK/cover.PNG">
+  <meta property="og:site_name" content="eGoZola"/>
+  <link rel="icon" type="image/x-icon" href="../favicon.png">
+</head>
+<body>
+<header>
+  <div  class="row" style="margin-left: 15px">
+    <img src="../assets/logo.png" style="border-radius: 7px;width:97px;height:42px"  alt="eGoZola">
+    <span style="margin-left: 20px"></span>
+  </div>
+</header>
+
+
+<div style="background-color: #5e5e5e;height: 5px;width: 100%"></div>
+<div style="text-align: right"> <em>Last update : january-20-2020</em></div>
+<h1 style="text-align: center"> Terms Of Service & Privacy policy</h1>
+<h3 style="text-align: center;color: darkgreen"> Privacy policy</h3>
+
+<p style="margin-left: 10px;border-left: 1px solid #ccc;text-align: center">
+  We believe you should always know <strong> our Terms Of Service </strong>,what data we collect from you and how we use it, and that you should have meaningful control over both. We want to empower you to make the best decisions about the information that you share with us.
+</p>
+<p> </p> <br>
+
+<div style="margin-left: 20px;border-left: 1px solid #ccc;text-align: center">
+<p>
+  1.	When you use eGoZola Craigslist-Chicago without creating account, we do not collect any information from you.
+</p>
+  <p>
+    2.	When you use eGoZola Craigslist-Chicago, and create anaccount we collect some personal information from you like the type of device, device IME, Mac address, your email. All your information are protected and saved in our system this information help us to block and filter device of any suspected and fraudulent user who has bad feedback.
+  </p>
+  <p>
+    3.	Your personal information help us to recover your account when you forget your password or when you lose your phone.
+  </p>
+  <p>
+    4.	Some time we use your email address to send to you some update data information or warning notification.
+  </p>
+</div>
+
+<h3 style="text-align: center;color: darkgreen"> Terms Of Service</h3>
+
+<div style="margin-left: 20px;border-left: 1px solid #ccc;text-align: center">
+  <p>
+    5.	We do not accept any user to post any stolen or unappropriated product (Illegal/Pirated copies) on our system.
+  </p>
+  <p>
+    6.	We want you, every user to be honest as more as you can when your post something in our system please.
+  </p>
+  <p>
+    7.	We suggest every user to have a habit of writing feedback, and before starting or making any deal please and please read feedback of your target user (Seller) please.
+  </p>
+  <p>
+    8.	Before making any deal please read take careful of reading our tips integrated on the home page of this apps eGoZola Craigslist-Chicago.
+  </p>
+  <p>
+    YOU USE OUR SERVICES AT YOUR OWN RISK IF YOU DO NOT APPLY, READ AND  TAKE CARE OF ALL THIS 8 GUILD LINE ABOVE AND ALL THINGS WILL BE OKAY.
+  </p>
+  <p><em>If any this is strange, please feel free to contact us at</em> <strong> info@egozola.com </strong> or <strong> binpc17@gmail.com</strong></p>
+</div>
+<footer style="background: #5e5e5e;color: white;text-align: center">
+  <div> <a href="policies.html" style="color: white"> Conditions d'utilisation</a>, <a href="policies.html" style="color: white">Données personnelles</a></div>
+  <span>
+  Powered by © eGoZola Craigslist-Chicago  </span><br>
+  Email: info@egozola.com
+
+</footer>
+</body>
+</html>

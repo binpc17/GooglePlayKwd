@@ -1,0 +1,31 @@
+>> un Bon: 10K offre d'emploi abidjan 2021, educarriere emploi ci 2021
+>> un Bon: 1K offre d'emploi en cote d'ivoire 2021, recherche emploi abidjan, petit boulot abidjan, educarriere ci abidjan
+>>1K: recherche d'emploi en côte d'ivoire, recrutement 2021 en cote d'ivoire, educarriere job ci
+
+
+
+agence emploi jeunes 100K 0.11 0.49 <<LOADED
+educarriere ci emploi 2020 10K <<LOADED 
+educarriere emploi 2020 10K <<LOADED 
+recrutement emploi jeune 2020 1K 0.08 0.45
+emploi jeunes ci 10K 0.011 0.21
+emploi jeune sotre 1K 0.0 0.32
+emploi chauffeur 2020 à abidjan 1K
+recrutement emploi jeune 2020, 1K 0.08 0.45
+educarriere emploi sgbci, 1K
+ESPACE Emploi Jeune 1K ----
+educarrière job ci 1K --
+educarrière ci offre d'emploi 10K --
+educarriere emploi chauffeur 2020, 1K 0.08 0.57
+offre d'emploi niveau bac en cote d'ivoire 2020, 1K 0.06 0.16
+recrutement 2020 ci, 1K 0.05 0.17
+recrutement 2020 abidjan, 1K ---
+agence emploi jeune ci 10K 0.08 0.27
+recrutement rp 2020 ci 1K 
+recrutement cie sodeci 2020 1K
+prosuma abidjan recrutement 2021 1K
+olam ci recrutement 2021 1K
+cemoi ci recrutement 2020 1K
+total ci recrutement 2020 1K
+recrutement 2020 en cote d'ivoire K 0.07 0.28
+
